@@ -1,0 +1,73 @@
+.index_section_style
+{
+	background-color: #ffb71e;
+	padding-top:8% ;
+	padding-right: 20%;
+	padding-bottom: 8%;
+	padding-left: 20%;
+	font-family: sans-serif;
+}
+.index_logo_div
+{
+ border-radius:15px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.form_heading
+{
+	border-radius:15px;
+	 background-color: #f0d9bb;
+	 padding: 2%;
+}
+.input_box_border
+{
+ border: 1px solid black;
+ border-radius: 5px;
+
+}
+.form_text_area
+{
+ border:2px solid black;
+ border-color: #42bff5;
+}
+.form_button
+{
+	font-size: 15px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+/*stroy................................................. */
+.story_section
+{
+background-color: #ffb71e;
+padding-top:10% ;
+padding-right: 22%;
+padding-bottom: 10%;
+padding-left: 22%;
+}
+.story_logo
+{
+ border-radius:15px; 
+ background-color: white;
+  margin-bottom: 30px;
+}
+.story_outer_div
+{
+	border-radius:15px; 
+	background-color: #f0d9bb;
+	padding: 2%;
+	padding-right:5%;
+	padding-left: 5%;
+}
+.story_inner_div
+{
+	overflow: auto;font-size: 24px;
+	font-family: sans-serif;
+	height: 600px;
+	padding-right:5%;
+	padding-left: 5%;
+}
+.lower_text
+{
+	padding: 5%;
+}

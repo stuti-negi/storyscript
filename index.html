@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First javascript form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section class="index_section_style">
+		<div>
+	
+		<div align="center" class="index_logo_div" >
+			<img src="/home/cedcoss/Desktop/tasks/javascript/task1/book.png" width="105" height="105">
+		</div>
+		<div align="center" class="form_heading">
+
+			<h1>
+				<strong>Complete the From-</strong>
+			</h1>
+			 <h1>
+			 	<strong>Complete the Story!</strong>
+			 </h1>
+
+			 <hr>
+			 <form action="story.html">
+			 	<p>
+					  <label for="animal1">Animal:</label>
+					  <input type="text" id="animal1" name="animal1"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  <label for="animal2">Another Animal:</label>
+					  <input type="text" id="animal2" name="animal2"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  <label for="lname">One More Animal:</label>
+					  <input type="text" id="animal3" name="animal3"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  <label for="adj_past">Adjective:</label>
+					  <input type="text" id="adj_past" name="adj_past"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  <label for="verb_ing">Verb(ends in -ing):</label>
+					  <input type="text" id="verb_ing" name="verb_ing"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  <label for="Number">Number:</label>
+					  <input type="text" id="Number" name="Number"  class="input_box_border">
+					  </p>
+
+					  <p>
+					  	 <label for="answer"> Yes or No:</label>
+					  	 <input type="radio" id="answer1" name="answer" value="yes" onclick="ans(this.value)">
+					  	 <label for="yes">Yes</label>
+						 
+						  <input type="radio" id="answer2" name="answer" value="no" onclick="ans(this.value)">
+						   <label for="no">No</label>
+						  
+					  </p>
+					  <p>
+
+						<label for="speed">Relative speed (ends in -er):
+						</label>
+						<select name="speed" id="Relative_speed" >
+						  <option value="Quicker">Quicker</option>
+						  <option value="Faster">Faster</option>
+						  <option value="Slower">Slower</option>
+						  
+						</select>
+					  </p>
+
+					  <p>
+					  <label for="quote">Motivational Quote:</label>
+					  <input type="text" id="quote" name="quote"  class="input_box_border">
+					  </p>
+					  <p>
+					  <label for="message">Meaningful Message:</label>
+					  </p>
+					  <p>
+					  <textarea name="message" rows="8" cols="30" class="form_text_area" id="Msg">This is a message.</textarea>
+					</p>
+
+					  <p>
+					  	<input type="submit" value="For My Story !" class="form_button" onclick="getData()">
+					  	</p>
+ 			</form> 
+		</div>
+</div>
+</section>	
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
